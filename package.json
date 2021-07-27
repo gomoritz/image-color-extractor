@@ -2,7 +2,11 @@
    "name": "image-color-extractor",
    "version": "1.0.0",
    "main": "dist/index.js",
+   "types": "dist/index.d.ts",
    "license": "MIT",
+   "scripts": {
+      "prepublish": "tsc"
+   },
    "devDependencies": {
       "typescript": "^4.3.5"
    }
