@@ -1,5 +1,5 @@
 import { Color, Configuration } from "./types"
-import getColorDifference from "./getColorDifference.js"
+import getColorDifference from "./getColorDifference"
 
 export default function createColorShareMap(
    image: HTMLImageElement,

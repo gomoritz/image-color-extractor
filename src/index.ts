@@ -1,6 +1,6 @@
 import { Configuration } from "./types"
-import drawImageOnCanvas from "./drawImageOnCanvas.js"
-import createColorShareMap from "./createColorShareMap.js"
+import drawImageOnCanvas from "./drawImageOnCanvas"
+import createColorShareMap from "./createColorShareMap"
 
 export default function extractColors(image: HTMLImageElement, config: Configuration) {
    const canvas = drawImageOnCanvas(image)
